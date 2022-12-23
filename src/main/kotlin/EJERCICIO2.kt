@@ -1,6 +1,6 @@
 fun main(){
     //texto de ejemplo
-    val text = "Gracias por tu compra candidato te esperamos pronto, tu orden generó \$20 pesos de monedero"
+    val text = "Gracias por tu compra benjamin te esperamos pronto, tu orden generó \$20 pesos de monedero"
     //delimitador de caracteres
     val cap =20
     //objeto para manipular el texto

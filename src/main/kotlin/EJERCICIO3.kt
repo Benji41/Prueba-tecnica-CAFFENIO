@@ -13,9 +13,7 @@ fun isVersionActualSuperior(actualVersion:String,versionToCompare:String):Boolea
         val expression3 = actualVersionList[0] == versionToCompareList[0]  && actualVersionList[1] == versionToCompareList[1] && actualVersionList[2] >= versionToCompareList[2]
 
         return when{
-            expression1 -> true
-            expression2 -> true
-            expression3 -> true
+            expression1 || expression2 || expression3 -> true
             //si no se cumplen ninguno de estas condicionales retorna falso
             else -> false
         }
